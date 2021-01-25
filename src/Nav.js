@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoMail } from "react-icons/io5";
 
 import "./App.css";
 
@@ -15,7 +16,7 @@ const Nav = () => {
     <div id="nav-container">
       <nav>
         <Link to="/about-me">
-          <h1>Philemon Heng</h1>
+          <h1><span id="phil">Phil</span>emon Heng</h1>
         </Link>
         <br/>
         <ul id="nav-links">
@@ -35,6 +36,9 @@ const Nav = () => {
           </a>
           <a href="https://github.com/fillingthemoon" target="_blank">
             <FaGithub />
+          </a>
+          <a href="mailto:philemon.hsy@gmail.com" target="_blank">
+            <IoMail />
           </a>
         </div>
       </nav>
