@@ -8,8 +8,8 @@ import {
 
 import Nav from "./Nav";
 import AboutMe from "./AboutMe";
-import Work from "./Work";
-import Contact from "./Contact";
+import Experience from "./Experience";
+import Projects from "./Projects";
 
 import "./App.css";
 
@@ -24,8 +24,8 @@ const  App = () => {
           <Switch id="switch">
             <Route path="/" exact component={AboutMe} />
             <Route path="/about-me" exact component={AboutMe} />
-            <Route path="/work" exact component={Work} />
-            <Route path="/contact" exact component={Contact} />
+            <Route path="/experience" exact component={Experience} />
+            <Route path="/projects" exact component={Projects} />
           </Switch>
         </div>
       </div>

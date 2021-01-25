@@ -3,7 +3,12 @@ const AboutMe = () => {
     <div>
       <div id="content-container">
         <h2 id="content-title">about me</h2>
-        <p>content</p>
+          <br/>
+          <div id="about-me">
+            <p>
+              Hi there, I'm Philemon! I enjoy building web apps, geographical information systems (GIS), and playing the guitar.
+            </p>
+          </div>
       </div>
     </div>
   );
