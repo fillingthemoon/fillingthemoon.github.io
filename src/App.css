@@ -1,0 +1,69 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+}
+
+#app-div {
+  margin-top: 150px; 
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 25px;
+  text-align: right;
+}
+
+#nav-container * a {
+  text-decoration: none;
+  color: #333333;
+}
+
+#site-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* nav bar */
+#nav-container {
+  margin-right: 40px;
+}
+
+nav * ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+li {
+  text-align: right;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+nav * a {
+  text-decoration: none;
+  color: #333333;
+  padding: 1px;
+}
+
+nav * a:hover {
+  border-bottom: 1px solid #333333;
+}
+
+/* vertical line */
+#vl {
+  border-right: 1px solid #333333;
+  height: 500px;
+}
+
+/* content */
+#content-container {
+  padding-left: 40px;
+}
+
+#content-title {
+  border-bottom: 1px solid #333333;
+  padding-bottom: 10px;
+  width: 800px;
+}
+
