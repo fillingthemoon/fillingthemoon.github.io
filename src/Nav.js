@@ -15,7 +15,7 @@ const Nav = () => {
   return (
     <div id="nav-container">
       <nav>
-        <Link to="/about-me">
+        <Link to="/">
           <h1><span id="phil">Phil</span>emon Heng</h1>
         </Link>
         <br/>
