@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
   Link
@@ -21,12 +22,12 @@ const  App = () => {
         <div id="site-container">
           <Nav /> 
           <div id="vl"/>
-          <Switch id="switch">
+          <HashRouter id="switch">
             <Route path="/" exact component={AboutMe} />
             <Route path="/about-me" exact component={AboutMe} />
             <Route path="/experience" exact component={Experience} />
             <Route path="/projects" exact component={Projects} />
-          </Switch>
+          </HashRouter>
         </div>
       </div>
     </Router>
