@@ -11,14 +11,20 @@ const Experience = () => {
             <p></p>
           </div>
           <div id="experience">
+            <h2>Research Assistant (GIS)</h2>
+            <h3>NUS Faculty of Arts and Social Sciences</h3>
+            <h4>Jan 2021 - Present</h4>
+            <p></p>
+          </div>
+          <div id="experience">
             <h2>Student Associate</h2>
             <h3>Yale-NUS College, Division of Science</h3>
             <h4>Feb 2020 - Present</h4>
             <p></p>
           </div>
           <div id="experience">
-            <h2>Summer Research Programme Researcher</h2>
-            <h3>Yale-NUS College, Division of Science</h3>
+            <h2>SRP Researcher</h2>
+            <h3>Yale-NUS College, Summer Research Programme (SRP)</h3>
             <h4>May 2020 - Jul 2020</h4>
             <p></p>
           </div>
