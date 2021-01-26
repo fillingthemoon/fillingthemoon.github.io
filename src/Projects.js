@@ -15,7 +15,7 @@ const Projects = () => {
               <h1>SGMangroves</h1>
               <img src={img_001} alt=""></img>
               <p>
-                The purpose of SGMangroves is to provide users with a comprehensive overview of Singapore's mangroves, including their geographical location, flora and fauna species, biomass, and more.
+                SGMangroves provides users with an overview of Singapore's mangroves, including their geographical location, flora and fauna species, biomass, and more.
               </p>
             </div>
           </a>
