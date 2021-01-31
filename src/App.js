@@ -3,8 +3,9 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
 } from "react-router-dom";
+import { MemoryRouter } from 'react-router';
 
 import Nav from "./Nav";
 import AboutMe from "./AboutMe";
@@ -16,7 +17,7 @@ import "./App.css";
 const  App = () => {
 
   return (
-    <Router>
+    <MemoryRouter>
       <div id="app-div">
         <div id="site-container">
           <Nav /> 
@@ -29,7 +30,7 @@ const  App = () => {
           </Switch>
         </div>
       </div>
-    </Router>
+    </MemoryRouter>
   );
 }
 
