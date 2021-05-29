@@ -8,7 +8,7 @@ const aboutMeData = [
     
     More recently, I have been creating a few full stack end-to-end web applications and seek to further explore the field of full stack web-development and GIS and how these technologies can be used to positively impact others' lives and aid in environmental sustainability.
     
-    Check out my Github page (sidebar) for more info and minor coding projects! :)`
+    Check out my GitHub page (sidebar) for more info and minor coding projects! :)`
   }
 ]
 
