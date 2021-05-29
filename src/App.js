@@ -1,37 +1,33 @@
-import React, { useState } from "react";
+import React from 'react'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
-  Link,
-} from "react-router-dom";
-import { MemoryRouter } from 'react-router';
+} from 'react-router-dom'
 
-import Nav from "./Nav";
-import AboutMe from "./AboutMe";
-import Experience from "./Experience";
-import Projects from "./Projects";
+import Nav from './Nav'
+import AboutMe from './AboutMe'
+import Experience from './Experience'
+import Projects from './Projects'
 
-import "./App.css";
+import './style.css'
 
-const  App = () => {
-
+const App = () => {
   return (
-    <MemoryRouter>
-      <div id="app-div">
-        <div id="site-container">
-          <Nav /> 
-          <div id="vl"/>
-          <Switch id="switch">
-            <Route path="/" exact component={AboutMe} />
-            <Route path="/about-me" exact component={AboutMe} />
-            <Route path="/experience" exact component={Experience} />
-            <Route path="/projects" exact component={Projects} />
+    <Router>
+      <div id='app-div'>
+        <div id='site-container'>
+          <Nav />
+          <div id='vl' />
+          <Switch id='switch'>
+            <Route replace path={['/', '/about-me']} exact component={AboutMe} />
+            <Route replace spath='/experience' exact component={Experience} />
+            <Route replace path='/projects' exact component={Projects} />
           </Switch>
         </div>
       </div>
-    </MemoryRouter>
-  );
+    </Router>
+  )
 }
 
-export default App;
+export default App
