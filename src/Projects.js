@@ -12,7 +12,7 @@ const projectsData = [
     url: 'https://frozen-fortress-97960.herokuapp.com/',
     title: 'The Office Script Search App',
     imgSrc: img_006,
-    description: 'This is a web app for searching for any line from the popular sitcom "The Office".',
+    description: 'This is a web app for searching for any line from the popular sitcom "The Office", built using React, Redux, AntDesign, Node, Express, MongoDB, and Heroku.',
   },
   {
     url: 'https://arcane-crag-98386.herokuapp.com/#/home',

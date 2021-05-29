@@ -8,12 +8,15 @@ const aboutMeData = [
     
     More recently, I have been creating a few full stack end-to-end web applications and seek to further explore the field of full stack web-development and GIS and how these technologies can be used to positively impact others' lives and aid in environmental sustainability.
     
-    Check out my website and Github page for more info and minor coding projects! :) 
-    
-    https://philemonheng.com
-    http://fillingthemoon.github.io`
+    Check out my Github page (sidebar) for more info and minor coding projects! :)`
   }
 ]
+
+const splitLines = (text) => {
+  return text
+    .split('\n')
+    .map(t => t.trim())
+}
 
 const AboutMe = () => {
 
@@ -23,9 +26,11 @@ const AboutMe = () => {
         <h2 id="content-title">about me</h2>
         <br />
         <div id="about-me">
-          <p>
-            {aboutMeData[0].description}
-          </p>
+          {splitLines(aboutMeData[0].description).map((item, i) =>
+            <p key={i}>
+              {item}
+            </p>
+          )}
         </div>
       </div>
     </div>

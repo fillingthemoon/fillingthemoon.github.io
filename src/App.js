@@ -21,7 +21,7 @@ const App = () => {
           <div id='vl' />
           <Switch id='switch'>
             <Route replace path={['/', '/about-me']} exact component={AboutMe} />
-            <Route replace spath='/experience' exact component={Experience} />
+            <Route replace path='/experience' exact component={Experience} />
             <Route replace path='/projects' exact component={Projects} />
           </Switch>
         </div>

@@ -38,16 +38,17 @@ const Experience = () => {
     <div>
       <div id="content-container">
         <h2 id="content-title">experience</h2>
-        {experienceData.map((experience, i) =>
-          <div id='experience' key={i}>
-            <h2>{experience.position}</h2>
-            <h3>{experience.company}</h3>
-            <h4>{experience.duration}</h4>
-            <br />
-          </div>
-        )}
+        <div id='experiences'>
+          {experienceData.map((experience, i) =>
+            <div className='experience-item' key={i}>
+              <h2>{experience.position}</h2>
+              <h3>{experience.company}</h3>
+              <h4>{experience.duration}</h4>
+            </div>
+          )}
+        </div>
       </div>
-    </div>
+    </div >
   )
 }
 
