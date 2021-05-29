@@ -1,11 +1,11 @@
 import React from 'react'
 
-import img_001 from './imgs/sgmangroves.png'
-import img_002 from './imgs/pomodoro-timer.png'
-import img_003 from './imgs/tic-tac-toe.png'
-import img_004 from './imgs/trbc.png'
-import img_005 from './imgs/memory-game.png'
-import img_006 from './imgs/the-office-script-search.png'
+import img_001 from './imgs/projects/sgmangroves.png'
+import img_002 from './imgs/projects/pomodoro-timer.png'
+import img_003 from './imgs/projects/tic-tac-toe.png'
+import img_004 from './imgs/projects/trbc.png'
+import img_005 from './imgs/projects/memory-game.png'
+import img_006 from './imgs/projects/the-office-script-search.png'
 
 const projectsData = [
   {

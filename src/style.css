@@ -199,8 +199,52 @@ li {
 
 /* skills */
 #skills {
-  margin: 50px 20px;
+  margin: 20px 20px;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+}
+
+
+.skills-div {
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.skills-div h2 {
+  color: #0078f7;
+}
+
+.skills-div-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.skills-card {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 5px;
+
+  /* box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.1); */
+  transition: 0.2s;
+}
+
+.skills-card:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.skills-card span {
+  font-size: 0.8rem;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.skills-card img {
+  width: 70px;
+  height: 70px;
+  object-fit: scale-down;
 }
