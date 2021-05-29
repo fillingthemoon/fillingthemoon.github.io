@@ -24,7 +24,6 @@ const AboutMe = () => {
     <div>
       <div id="content-container">
         <h2 id="content-title">about me</h2>
-        <br />
         <div id="about-me">
           {splitLines(aboutMeData[0].description).map((item, i) =>
             <p key={i}>

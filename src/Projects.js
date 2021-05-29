@@ -54,7 +54,7 @@ const Projects = () => {
         <div id="projects">
           {projectsData.map((project, i) =>
             <a key={i} href={project.url} target='_blank' rel='noreferrer'>
-              <div id='project'>
+              <div className='project'>
                 <h1>{project.title}</h1>
                 <img src={project.imgSrc} alt=''></img>
                 <p>{project.description}</p>

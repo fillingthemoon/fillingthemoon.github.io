@@ -92,7 +92,7 @@ li {
 
 /* content */
 #content-container {
-  margin: 0 40px;
+  margin: 0 40px 40px 40px;
   max-width: 800px;
 }
 
@@ -111,7 +111,7 @@ li {
 
 /* about me */
 #about-me {
-  margin: 20px 0;
+  margin: 50px 20px;
 }
 
 #about-me > p {
@@ -122,7 +122,7 @@ li {
 
 /* Experience */
 #experiences {
-  margin: 20px 0px;
+  margin: 40px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -156,8 +156,8 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 40px;
   max-width: 800px;
-  margin: 30px 0;
 }
 
 #projects > a {
@@ -165,21 +165,21 @@ li {
   color: #333333;
 }
 
-#project {
+.project {
   margin: 30px;
   padding: 40px;
-  width: 250px;
+  max-width: 250px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.2s;
   overflow: hidden;
 }
 
-#project:hover {
+.project:hover {
   transform: scale(1.05);
   transition: 0.2s;
 }
 
-#project > h1 {
+.project > h1 {
   margin: 0px 0px 30px 0px;
   font-size: 1.4em;
   text-align: center;
@@ -187,13 +187,20 @@ li {
   font-weight: 700;
 }
 
-#project > p {
+.project > p {
   margin-bottom: 0px;
   color: #333333;
   font-weight: 300;
 }
 
-#project > img {
+.project > img {
   width: 100%;
 }
 
+/* skills */
+#skills {
+  margin: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
