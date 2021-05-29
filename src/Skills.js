@@ -16,19 +16,19 @@ import img_011 from './imgs/skills/img_011.png'
 import img_012 from './imgs/skills/img_012.png'
 import img_013 from './imgs/skills/img_013.png'
 import img_014 from './imgs/skills/img_014.png'
-import img_015 from './imgs/skills/img_003.png'
-import img_016 from './imgs/skills/img_003.png'
-import img_017 from './imgs/skills/img_003.png'
-import img_018 from './imgs/skills/img_003.png'
-import img_019 from './imgs/skills/img_003.png'
-import img_020 from './imgs/skills/img_003.png'
-import img_021 from './imgs/skills/img_003.png'
-import img_022 from './imgs/skills/img_003.png'
-import img_023 from './imgs/skills/img_003.png'
-import img_024 from './imgs/skills/img_003.png'
-import img_025 from './imgs/skills/img_003.png'
-import img_026 from './imgs/skills/img_003.png'
-import img_027 from './imgs/skills/img_003.png'
+import img_015 from './imgs/skills/img_015.png'
+import img_016 from './imgs/skills/img_016.png'
+import img_017 from './imgs/skills/img_017.png'
+import img_018 from './imgs/skills/img_018.png'
+import img_019 from './imgs/skills/img_019.png'
+import img_020 from './imgs/skills/img_020.png'
+import img_021 from './imgs/skills/img_021.png'
+import img_022 from './imgs/skills/img_022.png'
+import img_023 from './imgs/skills/img_023.png'
+import img_024 from './imgs/skills/img_024.png'
+import img_025 from './imgs/skills/img_025.png'
+import img_026 from './imgs/skills/img_026.png'
+import img_027 from './imgs/skills/img_027.png'
 
 const languagesData = [
   {
@@ -203,7 +203,7 @@ const skillsDivs = [
   },
   {
     id: 'skills-database-tools',
-    title: 'Database tools',
+    title: 'Database Tools',
     data: databaseToolsData,
   },
 ]

@@ -24,25 +24,25 @@ const projectsData = [
     url: 'https://sgmangroves.com',
     title: 'SGMangroves',
     imgSrc: img_001,
-    description: 'SGMangroves provides users with an overview of Singapore\'s mangroves, including their geographical location, flora and fauna species, biomass, and more.'
+    description: 'SGMangroves, a web map application that provides users with an overview of Singapore\'s mangroves, was built using JavaScipt, CSS, HTML, MapBox GL JS, QGIS, and OpenStreetMap.'
   },
   {
     url: 'https://fillingthemoon.github.io/pomodoro-timer/',
     title: 'Pomodoro Timer',
     imgSrc: img_002,
-    description: 'This is a pomodoro timer web app.',
+    description: 'This is a pomodoro timer web app built using JavaScipt, CSS, and HTML.',
   },
   {
     url: 'https://fillingthemoon.github.io/tictactoe/',
     title: 'Tic-Tac-Toe',
     imgSrc: img_003,
-    description: 'This is a tic-tac-toe web app.',
+    description: 'This is a tic-tac-toe web app built using JavaScipt, CSS, and HTML.',
   },
   {
     url: 'https://fillingthemoon.github.io/memory-card/',
     title: 'Memory Game',
     imgSrc: img_005,
-    description: 'This is a memory game built using ReactJS.',
+    description: 'This is a memory game built using React.',
   },
 ]
 
