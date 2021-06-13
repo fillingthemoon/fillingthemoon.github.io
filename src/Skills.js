@@ -29,6 +29,8 @@ import img_024 from './imgs/skills/img_024.png'
 import img_025 from './imgs/skills/img_025.png'
 import img_026 from './imgs/skills/img_026.png'
 import img_027 from './imgs/skills/img_027.png'
+import img_028 from './imgs/skills/img_028.png'
+import img_029 from './imgs/skills/img_029.png'
 
 const languagesData = [
   {
@@ -70,6 +72,11 @@ const frameworksAndLibrariesData = [
     category: 'main',
   },
   {
+    name: 'Vue',
+    imgSrc: img_028,
+    category: 'main',
+  },
+  {
     name: 'Redux',
     imgSrc: img_008,
     category: 'main',
@@ -82,6 +89,11 @@ const frameworksAndLibrariesData = [
   {
     name: 'Express',
     imgSrc: img_010,
+    category: 'main',
+  },
+  {
+    name: 'Tailwind CSS',
+    imgSrc: img_029,
     category: 'main',
   },
   {
