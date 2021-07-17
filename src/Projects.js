@@ -9,13 +9,13 @@ import img_006 from './imgs/projects/the-office-script-search.png'
 
 const projectsData = [
   {
-    url: 'https://frozen-fortress-97960.herokuapp.com/',
+    url: 'https://theofficescriptsearch.herokuapp.com',
     title: 'The Office Script Search App',
     imgSrc: img_006,
     description: 'This is a web app for searching for any line from the popular sitcom "The Office", built using React, Redux, AntDesign, Node, Express, MongoDB, and Heroku.',
   },
   {
-    url: 'https://arcane-crag-98386.herokuapp.com/#/home',
+    url: 'https://trbc.herokuapp.com',
     title: 'TRBC Website',
     imgSrc: img_004,
     description: 'This is a website for Thomson Road Baptist Church, built using React, Redux, AntDesign, Node, Express, MongoDB, and Heroku.',
