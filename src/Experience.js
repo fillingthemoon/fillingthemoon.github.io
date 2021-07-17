@@ -2,14 +2,14 @@ import React from 'react'
 
 const experienceData = [
   {
+    position: 'Student Associate',
+    company: 'Yale-NUS College, Division of Science',
+    duration: 'Feb 2020 - July 2021',
+  },
+  {
     position: 'Full Stack Developer Intern',
     company: 'Urban Redevelopment Authority (URA)',
     duration: 'Jan 2021 - May 2021',
-  },
-  {
-    position: 'Student Associate',
-    company: 'Yale-NUS College, Division of Science',
-    duration: 'Feb 2020 - May 2021',
   },
   {
     position: 'Graduate Student Researcher',
